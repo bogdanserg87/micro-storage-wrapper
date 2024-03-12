@@ -1,0 +1,25 @@
+{
+  "name": "micro-storage-wrapper",
+  "version": "0.2.7",
+  "description": "A lightweight wrapper for browser storage APIs, abstracting localStorage, sessionStorage, and IndexedDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bogdanserg87/micro-storage-wrapper"
+  },
+  "author": "Andrew Valik",
+  "license": "MIT",
+  "dependencies": {
+    "idb": "^7.0.0",
+    "localforage": "^1.9.0",
+    "lodash.isempty": "^4.4.0",
+    "uuid": "^8.3.2",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0"
+  }
+}
